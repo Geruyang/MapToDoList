@@ -1,0 +1,130 @@
+{
+  "test": "Authorized sequential OpenAI candidate validation",
+  "timestamp_utc": "2026-10-11T13:09:29.560764+00:00",
+  "model": "gpt-6.1-sol",
+  "results": [
+    {
+      "ordinal": 1,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 2,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 3,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 4,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 5,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 6,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 7,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 8,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 9,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 10,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 11,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 12,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 13,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 14,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 15,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 16,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 17,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 18,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 19,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 20,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 21,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    },
+    {
+      "ordinal": 22,
+      "classification": "network_or_response_error"
+    }
+  ],
+  "selected_ordinal": null,
+  "limitations": [
+    "Python source-shaped HTTP fixture, not Swift/iOS App E2E",
+    "No real user task data, no Keychain/app writes, no balance/org inspection"
+  ],
+  "candidate_count": 47,
+  "request_shape": {
+    "endpoint": "https://api.openai.com/v1/responses",
+    "reasoning_effort": "low",
+    "store": false,
+    "max_output_tokens": 512,
+    "synthetic_task_count": 1
+  },
+  "result": "STOPPED: network or response decoding failed; details suppressed"
+}

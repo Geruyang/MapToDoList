@@ -1,0 +1,39 @@
+{
+  "artifact": "/Users/geruyang/AIProject/MapToDoList/build/distribution/export-build3/MapToDo.ipa",
+  "expectedBuild": "3",
+  "passed": true,
+  "IPASHA256": "e844d062624f0d479e94dad7accf365c7b9087b8315b690f323e1b81f7848ed4",
+  "checks": {
+    "strictCodesign": true,
+    "appleDistribution": true,
+    "signatureTeam": true,
+    "profileTeam": true,
+    "bundle": true,
+    "version": true,
+    "build": true,
+    "family": true,
+    "getTaskAllowFalse": true,
+    "profileGetTaskAllowFalse": true,
+    "noProvisionedDevices": true,
+    "notEnterpriseProfile": true,
+    "applicationIdentifier": true,
+    "weatherkit": true,
+    "timeSensitive": true,
+    "profileWeatherkit": true,
+    "profileTimeSensitive": true,
+    "privacyManifestValid": true,
+    "noTestBundles": true,
+    "noDebugArtifacts": true,
+    "noDebugMarkers": true
+  },
+  "bundle": "com.waypoint.maptodo",
+  "version": "1.0.0",
+  "build": "3",
+  "family": [
+    1
+  ],
+  "team": "VA8X63NPCS",
+  "testBundles": [],
+  "debugArtifacts": [],
+  "debugMarkersFound": []
+}

@@ -1,0 +1,44 @@
+{
+  "appID": "6821568965",
+  "version": "1.0.0",
+  "build": 4,
+  "submissionID": "9c0eea3b-e65c-42ba-aa1b-47cfeb2d0410",
+  "submitted": true,
+  "status": "Waiting for Review",
+  "submittedAtDisplayed": "2026-10-12 02:48 America/Los_Angeles",
+  "timezone": "America/Los_Angeles",
+  "items": [
+    {
+      "type": "app",
+      "version": "1.0.0 (4)",
+      "status": "Waiting for Review"
+    },
+    {
+      "type": "subscription",
+      "name": "Waypoint Plus Annual",
+      "appleID": "6821572701",
+      "productID": "com.waypoint.maptodo.annual",
+      "status": "Waiting for Review"
+    },
+    {
+      "type": "subscriptionGroup",
+      "name": "Waypoint Plus",
+      "id": "22464265",
+      "status": "Waiting for Review"
+    }
+  ],
+  "manualRelease": true,
+  "approved": false,
+  "published": false,
+  "screenshots": {
+    "en-US": 5,
+    "zh-Hans": 5,
+    "replaced": true
+  },
+  "evidence": [
+    "build4-review-receipt-dom.txt",
+    "build4-review-submitted.png",
+    "build4-submit-result-dom.txt",
+    "build4-three-item-draft-dom.txt"
+  ]
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>__xctestrun_metadata__</key>
+	<dict>
+		<key>FormatVersion</key>
+		<integer>2</integer>
+	</dict>
+	<key>TestConfigurations</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>ExistingVerifiedDeviceArtifactsAll20UI</string>
+			<key>IsEnabled</key>
+			<true/>
+			<key>TestTargets</key>
+			<array>
+				<dict>
+					<key>BlueprintName</key>
+					<string>MapToDoUITests</string>
+					<key>ProductModuleName</key>
+					<string>MapToDoUITests</string>
+					<key>IsUITestBundle</key>
+					<true/>
+					<key>UseDestinationArtifacts</key>
+					<true/>
+					<key>TestHostBundleIdentifier</key>
+					<string>com.waypoint.MapToDoUITests.xctrunner</string>
+					<key>TestBundleDestinationRelativePath</key>
+					<string>__TESTHOST__/PlugIns/MapToDoUITests.xctest</string>
+					<key>UITargetAppBundleIdentifier</key>
+					<string>com.waypoint.maptodo</string>
+					<key>TestingEnvironmentVariables</key>
+					<dict/>
+					<key>EnvironmentVariables</key>
+					<dict/>
+					<key>ParallelizationEnabled</key>
+					<false/>
+					<key>SystemAttachmentLifetime</key>
+					<string>keepAlways</string>
+					<key>UserAttachmentLifetime</key>
+					<string>keepAlways</string>
+					<key>OnlyTestIdentifiers</key>
+					<array>
+						<string>WaypointUITests</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

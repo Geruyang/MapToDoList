@@ -1,0 +1,19 @@
+{
+  "generatedSource": "/Users/geruyang/AIProject/MapToDoList/build/DeviceData/Build/Products/MapToDo_iphoneos26.5-arm64.xctestrun",
+  "generatedSourceSHA256": "15a3dfa4fc030dae802092ea165a7c4469e9fbc9f842e7d7db5a44fee6a7be0e",
+  "outputSHA256": "4f26ec85df8f832255def00216599b8995f8e60b89019276beda94adc3708dd1",
+  "onlyUIIdentifiers": [
+    "WaypointUITests/testLongEditableTitleWrapsAndSurvivesSaveAndRelaunch",
+    "WaypointUITests/testLongReadonlyTitleWrapsAndRemainsWholeWithoutAccess",
+    "WaypointUITests/testScreenshotGalleryOfPrimaryScreens",
+    "WaypointUITests/testEnglishScreenshotGalleryOfPrimaryScreens",
+    "WaypointUITests/testLargestAccessibilityTypeScreenshotGalleryOfPrimaryScreens",
+    "WaypointUITests/testFourAIProvidersUseSecureInputAndCanSaveAndDeleteKeysWhileGeminiIsUnavailable",
+    "WaypointUITests/testExistingTasksCanExportTextMarkdownAndICSWithoutDemoAccess",
+    "WaypointUITests/testEnglishMarketSmokeShowsEnglishNavigationExportAndPaywall"
+  ],
+  "useDestinationArtifacts": true,
+  "installationPathsRemoved": true,
+  "storeKitFixtureConfiguration": false,
+  "executionStatus": "NOT_RUN"
+}

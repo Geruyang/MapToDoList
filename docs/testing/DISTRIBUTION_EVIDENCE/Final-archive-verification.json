@@ -1,0 +1,14 @@
+{
+  "bundle": "com.waypoint.maptodo",
+  "version": "1.0.0",
+  "build": "2",
+  "family": [
+    1
+  ],
+  "minimumOS": "17.0",
+  "inputChanges": [],
+  "debugMarkersFound": [],
+  "testBundles": [],
+  "privacyManifestPresent": true,
+  "binarySHA256": "f8b9b0d02b3a89bab0630bdfafd56f5e0461e589cd28e3c3a4be0de1b5a30445"
+}

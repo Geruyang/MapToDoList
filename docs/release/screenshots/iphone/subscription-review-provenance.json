@@ -1,0 +1,16 @@
+{
+  "source": "docs/testing/DEVICE_EVIDENCE/Snapshot-minimal-config-single-attachments/640F9D2F-B7AA-4A0B-B3B4-25C6C5EBFE74.png",
+  "sha256": "16371a3ac0e156f1ce9ff54bfa026d1630cdc4d7ecd807ab21cf5abce6815c06",
+  "candidate": "Input-layout-J1",
+  "capture": "WAYPOINT_EN_PAYWALL",
+  "edited": false,
+  "systemNotificationVisible": false,
+  "price": "US$9.99/year",
+  "trial": "Eligible 7-day trial",
+  "transactionPerformed": false,
+  "reviewers": [
+    "/root/ui_design",
+    "/root"
+  ],
+  "releaseBinaryConsistency": "Must verify after final archive; screenshot alone does not verify transactions."
+}

@@ -1,0 +1,42 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64e",
+        "deviceId" : "00008150-00066CE13C43C01C",
+        "deviceName" : "geruyang的iPhone",
+        "modelName" : "iPhone 17 Pro Max",
+        "osBuildNumber" : "24A446",
+        "osVersion" : "27.0.1",
+        "platform" : "iOS"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 0,
+      "passedTests" : 18,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "R49unit"
+      }
+    }
+  ],
+  "environmentDescription" : "<unknown> · Built with macOS 26.6.2",
+  "expectedFailures" : 0,
+  "failedTests" : 0,
+  "finishTime" : 1791792229.031,
+  "passedTests" : 18,
+  "result" : "Passed",
+  "skippedTests" : 0,
+  "startTime" : 1791792227.827,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+
+  ],
+  "title" : "Test - Transient Testing",
+  "topInsights" : [
+
+  ],
+  "totalTestCount" : 18
+}

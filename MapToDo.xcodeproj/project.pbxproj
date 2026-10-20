@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12900000000000000000001 /* OpenAIRegionGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12900000000000000000002 /* OpenAIRegionGate.swift */; };
+		02EA75B047D9F79775C525F9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B419FB439EB080B02F6C9799 /* Theme.swift */; };
+		0D51786244D94500E4ABD0E8 /* TaskEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BD178D7D0E7DC2C878638 /* TaskEditorView.swift */; };
+		175B5B618AEDEA14D6AE2E23 /* ReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264F8CF7FB95E85D74C906B /* ReminderSettingsView.swift */; };
+		1A0E510559582EFA32493E49 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87158354328C1FF11354528 /* CoreTests.swift */; };
+		1ACFB4398BED6AF7E95553DD /* SubscriptionTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7078FEE8F6B5FEB842C083F2 /* SubscriptionTimeout.swift */; };
+		1D26A2F3C5F148D8FC9ED4A1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960762C383F11C45009A05F3 /* StoreKit.framework */; };
+		216B2437BD656543A6612737 /* MapLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8843323256B28102BBA17B12 /* MapLocationService.swift */; };
+		297873F3B5583BB5C42FEEB6 /* AIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B5E048E079C73716CF917 /* AIConfiguration.swift */; };
+		2A340AFDF1FB2369D5F7390D /* WeatherProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82F782FEF55D2C3778A0DBF /* WeatherProvider.swift */; };
+		32CB6417053CB73AAB548E21 /* SubscriptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5843EC408ED8FA676725F /* SubscriptionTests.swift */; };
+		3B9611979FC55731F7961FBE /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02F52175C0936609561DECF /* UserNotifications.framework */; };
+		4079FC64EC3E1A310CAD53DF /* SubscriptionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0B067EFE806BB57F87F99 /* SubscriptionStore.swift */; };
+		4219E7219F89702A7D697285 /* DeviceIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB92442D03741934C5405B1 /* DeviceIntegrationTests.swift */; };
+		49453502D30773B86E3DCE7F /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C9F1329B9D0957AFCC23AD /* TaskItem.swift */; };
+		4E363D3607947C686A6A781E /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1A17ADB24086EB8DB719A /* TodayView.swift */; };
+		4FB760B7E7B93ECB7251CE5D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C6DD92D6617C86A2C65D518C /* PrivacyInfo.xcprivacy */; };
+		53D41F66633F4540C78A87EF /* AISettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A090A8CDEE06D0844C6C79E3 /* AISettingsView.swift */; };
+		5AD710804F2360DD175C5B8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 214B31674D16E25FF6F953BB /* InfoPlist.strings */; };
+		5CCE72D500098FA3F9DAC2AF /* PlanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D00D856E6C884FADE52589 /* PlanningView.swift */; };
+		5F0A313448F9B85C386E1F92 /* MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30CFD29869B645BFC5148F /* MapTests.swift */; };
+		61BABC7E5E064318BE5986E7 /* PlanningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8A183222299732B29371C /* PlanningService.swift */; };
+		62406F357D94AD54B7529B55 /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4C7E5379E9DD99AFADAB0 /* WeatherTests.swift */; };
+		648799870AE3D33D18325A84 /* SandboxSubscriptionDiagnosticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794BC7F28084ABB3547B2923 /* SandboxSubscriptionDiagnosticsTests.swift */; };
+		6551DB788B7E73883B0E8C47 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10ECE22D7B45C14FB693ADA /* MapScreen.swift */; };
+		69D37B5ACA5183395D6509E5 /* WeatherKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA907143027BA049DF56A897 /* WeatherKit.framework */; };
+		807C4E486675D6E65838FFF6 /* SubscriptionTimeoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEA00B73EC8725AF70128 /* SubscriptionTimeoutTests.swift */; };
+		8A37F9B62E042081770F0CEC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D9D8940E9DB7E17023E4D4C /* Localizable.strings */; };
+		8D3CECA73987E7296D8DEA6A /* PlanningTimeoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003EA900531C1C345E5C884 /* PlanningTimeoutTests.swift */; };
+		8D582975DCE3F4E5B8B80737 /* StoreKitLifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379890A8DECFA51539412F22 /* StoreKitLifecycleTests.swift */; };
+		93B3C221AB62D19B85063E8F /* PlanningTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A0E0BF9924C25A25AD53B /* PlanningTimeout.swift */; };
+		9569432B55FD5ADD46B71B4C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742E1E8025B682D9BB67DC6 /* SettingsView.swift */; };
+		9A0B7F74457A42B635A1CB4A /* MODEL-SOURCES.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6A8FE602598A0BE967247 /* MODEL-SOURCES.md */; };
+		9F1F2952FC937F881602056E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39C3CA3F42C8B7C38FD3393 /* MapKit.framework */; };
+		A224EF2B7A22DA6C4E47751C /* PlanningFinalValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D00CCF75E6D946B149BF7D /* PlanningFinalValidation.swift */; };
+		AEC073225EC3117D5EF0C371 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B722BC17819DACF57CBB7F1 /* TaskStore.swift */; };
+		AEF9803E4775E13B96557E1B /* ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D62836FCC79B2945C6EF70E /* ReminderTests.swift */; };
+		928E05BB305740F885E5F73A /* ReminderDeviceDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A215BF69DA42B0B1098B92 /* ReminderDeviceDeliveryTests.swift */; };
+		AFFAABA4FE8758504494B673 /* PlanningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698E8D62F1D91A3D40BBAF14 /* PlanningTests.swift */; };
+		BA02B37E5EB4CE83B7035BFE /* LocalPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E258DE0415FFB013507CCB8 /* LocalPlanner.swift */; };
+		BBFCB49DAFAED5692E433D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F708974D45C1FF4B685D58D /* Assets.xcassets */; };
+		C3D5832B009433B08EFFE10D /* AIReleaseGateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86458BA2183C56E6E7391551 /* AIReleaseGateTests.swift */; };
+		C513DA9F02C7CEF049AD0CDD /* MapToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E86A15A9060B90359BED2 /* MapToDoApp.swift */; };
+		C5AE5ABD345D4F5E013BCE46 /* PlanningFinalValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA8E73419A9A7E6C588566 /* PlanningFinalValidationTests.swift */; };
+		CC5243C1726205CE6356AB1A /* ExportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EC975DE88A3463F74A628D /* ExportTests.swift */; };
+		CDF209F1A1B82BF6315E8F08 /* AIParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0178F11B0FF735EC44D8794E /* AIParsingTests.swift */; };
+		D4159DD792D8D0317B843802 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC932657158B4A9A7FE180 /* AIService.swift */; };
+		D946AB3B86C27E05F0E8D9C5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D779E5157D1D50E040B61 /* RootView.swift */; };
+		DA0196BFAB30A3D693B4FF51 /* ExportFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CC20D7C422F927F4036CE4 /* ExportFormatter.swift */; };
+		DF53F16DBF1DDCED8536FF70 /* WeatherCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B6D08771BA7FE38E284003 /* WeatherCardView.swift */; };
+		E11390DC6741C69052E8FF50 /* AccessPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2482C7D7EEEB57F622B4B39 /* AccessPolicy.swift */; };
+		E29B31234A8C2CD25943372C /* ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21485FAB45EB9F937655329 /* ReminderService.swift */; };
+		E968374974B5230A30AFB847 /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7475E687A748C108DF2DF9 /* ExportView.swift */; };
+		EA99BDD782BA8DF1E8CC98C0 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF9C1286685634F8C87E1E /* AppLinks.swift */; };
+		EAFBBDD131A4B391C2826DA2 /* WaypointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5D7AA484D9B37A32ABDBC /* WaypointUITests.swift */; };
+		EC6A6E51BCB5BDB65E0B1533 /* WeatherPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39148AF45182A912C24CF49A /* WeatherPolicy.swift */; };
+		EC6BCF4E6577457592F1711A /* SubscriptionConcurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9097D735835BC7C20A50A1CE /* SubscriptionConcurrencyTests.swift */; };
+		F1808712C08377EEA93EB7E7 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449CB98DE91AE28FCC2C8752 /* SubscriptionView.swift */; };
+		F7FCECAC28E9A6E47D1B55F4 /* MapToDo.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 6EFA8E022D5A1D0DAEC82486 /* MapToDo.storekit */; };
+		FB05FCBC37EF5B4FABCFE587 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 184E4C637BE33BFF914D07A2 /* README.md */; };
+		FEC87ECABFA7AE660397EE50 /* TaskEditValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE3556267D06480170EE475 /* TaskEditValidation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C258FDFBC2854EE59ED1DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371ADE666965EC7BE26C4FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77EB773CFCA313530A085BF;
+			remoteInfo = MapToDo;
+		};
+		F46924F27E8C04920DFE5AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371ADE666965EC7BE26C4FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77EB773CFCA313530A085BF;
+			remoteInfo = MapToDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A12900000000000000000002 /* OpenAIRegionGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIRegionGate.swift; sourceTree = "<group>"; };
+		0178F11B0FF735EC44D8794E /* AIParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIParsingTests.swift; sourceTree = "<group>"; };
+		04DAEA00B73EC8725AF70128 /* SubscriptionTimeoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTimeoutTests.swift; sourceTree = "<group>"; };
+		0BA1A17ADB24086EB8DB719A /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		0D7475E687A748C108DF2DF9 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		15B6D08771BA7FE38E284003 /* WeatherCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardView.swift; sourceTree = "<group>"; };
+		184E4C637BE33BFF914D07A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1EE3556267D06480170EE475 /* TaskEditValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditValidation.swift; sourceTree = "<group>"; };
+		23EC975DE88A3463F74A628D /* ExportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportTests.swift; sourceTree = "<group>"; };
+		293BD178D7D0E7DC2C878638 /* TaskEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditorView.swift; sourceTree = "<group>"; };
+		36C4C7E5379E9DD99AFADAB0 /* WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTests.swift; sourceTree = "<group>"; };
+		3742E1E8025B682D9BB67DC6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		379890A8DECFA51539412F22 /* StoreKitLifecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitLifecycleTests.swift; sourceTree = "<group>"; };
+		39148AF45182A912C24CF49A /* WeatherPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPolicy.swift; sourceTree = "<group>"; };
+		3BE5843EC408ED8FA676725F /* SubscriptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTests.swift; sourceTree = "<group>"; };
+		3F708974D45C1FF4B685D58D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC8A183222299732B29371C /* PlanningService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningService.swift; sourceTree = "<group>"; };
+		4003EA900531C1C345E5C884 /* PlanningTimeoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningTimeoutTests.swift; sourceTree = "<group>"; };
+		440A0E0BF9924C25A25AD53B /* PlanningTimeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningTimeout.swift; sourceTree = "<group>"; };
+		449CB98DE91AE28FCC2C8752 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		44D00D856E6C884FADE52589 /* PlanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningView.swift; sourceTree = "<group>"; };
+		4B722BC17819DACF57CBB7F1 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		5CF6A8FE602598A0BE967247 /* MODEL-SOURCES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "MODEL-SOURCES.md"; sourceTree = "<group>"; };
+		62C9F1329B9D0957AFCC23AD /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		698E8D62F1D91A3D40BBAF14 /* PlanningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningTests.swift; sourceTree = "<group>"; };
+		6D62836FCC79B2945C6EF70E /* ReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTests.swift; sourceTree = "<group>"; };
+		C1A215BF69DA42B0B1098B92 /* ReminderDeviceDeliveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDeviceDeliveryTests.swift; sourceTree = "<group>"; };
+		6EFA8E022D5A1D0DAEC82486 /* MapToDo.storekit */ = {isa = PBXFileReference; path = MapToDo.storekit; sourceTree = "<group>"; };
+		7078FEE8F6B5FEB842C083F2 /* SubscriptionTimeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTimeout.swift; sourceTree = "<group>"; };
+		7264F8CF7FB95E85D74C906B /* ReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsView.swift; sourceTree = "<group>"; };
+		794BC7F28084ABB3547B2923 /* SandboxSubscriptionDiagnosticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxSubscriptionDiagnosticsTests.swift; sourceTree = "<group>"; };
+		7DB92442D03741934C5405B1 /* DeviceIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceIntegrationTests.swift; sourceTree = "<group>"; };
+		7E258DE0415FFB013507CCB8 /* LocalPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPlanner.swift; sourceTree = "<group>"; };
+		86458BA2183C56E6E7391551 /* AIReleaseGateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIReleaseGateTests.swift; sourceTree = "<group>"; };
+		8843323256B28102BBA17B12 /* MapLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationService.swift; sourceTree = "<group>"; };
+		896B5E048E079C73716CF917 /* AIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIConfiguration.swift; sourceTree = "<group>"; };
+		8AFC932657158B4A9A7FE180 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		8B2CE95AD92F37A38B4854E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9097D735835BC7C20A50A1CE /* SubscriptionConcurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionConcurrencyTests.swift; sourceTree = "<group>"; };
+		90EF9C1286685634F8C87E1E /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		960762C383F11C45009A05F3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		99D00CCF75E6D946B149BF7D /* PlanningFinalValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningFinalValidation.swift; sourceTree = "<group>"; };
+		A02F52175C0936609561DECF /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		A090A8CDEE06D0844C6C79E3 /* AISettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISettingsView.swift; sourceTree = "<group>"; };
+		A87158354328C1FF11354528 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		A90E86A15A9060B90359BED2 /* MapToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapToDoApp.swift; sourceTree = "<group>"; };
+		AA907143027BA049DF56A897 /* WeatherKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeatherKit.framework; path = System/Library/Frameworks/WeatherKit.framework; sourceTree = SDKROOT; };
+		B419FB439EB080B02F6C9799 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B91FF48032317DEFA7BF85C8 /* MapToDo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MapToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8D779E5157D1D50E040B61 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		BED49A5FC03D3E5CD2898B17 /* MapToDoUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MapToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF30CFD29869B645BFC5148F /* MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTests.swift; sourceTree = "<group>"; };
+		C39C3CA3F42C8B7C38FD3393 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C4F5D7AA484D9B37A32ABDBC /* WaypointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaypointUITests.swift; sourceTree = "<group>"; };
+		C6DD92D6617C86A2C65D518C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D0A84B7CACF7F6534C763935 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D10ECE22D7B45C14FB693ADA /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		D2482C7D7EEEB57F622B4B39 /* AccessPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessPolicy.swift; sourceTree = "<group>"; };
+		DA24F1C735933AED4662E497 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DECA8E73419A9A7E6C588566 /* PlanningFinalValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningFinalValidationTests.swift; sourceTree = "<group>"; };
+		E82F782FEF55D2C3778A0DBF /* WeatherProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherProvider.swift; sourceTree = "<group>"; };
+		EB4A885A6C4852FC08CEE9B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F0CC20D7C422F927F4036CE4 /* ExportFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportFormatter.swift; sourceTree = "<group>"; };
+		F21485FAB45EB9F937655329 /* ReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderService.swift; sourceTree = "<group>"; };
+		F2156BF707688E322A99CB8A /* MapToDoTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MapToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC0B067EFE806BB57F87F99 /* SubscriptionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761DE06409FBD6D11698765C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1F2952FC937F881602056E /* MapKit.framework in Frameworks */,
+				69D37B5ACA5183395D6509E5 /* WeatherKit.framework in Frameworks */,
+				1D26A2F3C5F148D8FC9ED4A1 /* StoreKit.framework in Frameworks */,
+				3B9611979FC55731F7961FBE /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DDD42426D7412E9895703D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				6EFA8E022D5A1D0DAEC82486 /* MapToDo.storekit */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		3479004AEA0D3D8C66CB1E35 /* MapToDo */ = {
+			isa = PBXGroup;
+			children = (
+				3F708974D45C1FF4B685D58D /* Assets.xcassets */,
+				C6DD92D6617C86A2C65D518C /* PrivacyInfo.xcprivacy */,
+				A46CF0A077E0052E484B4A81 /* App */,
+				762BE047BA2F140CCE344C9D /* Core */,
+				AD5D54F4DFFA6C8D5D9A3377 /* Design */,
+				68CA1271D2807330AD2D86B0 /* Features */,
+				CD0E1BB3D25862768A48E2F2 /* Resources */,
+			);
+			path = MapToDo;
+			sourceTree = "<group>";
+		};
+		37F91E3F95D190F0217FE132 /* Planning */ = {
+			isa = PBXGroup;
+			children = (
+				7E258DE0415FFB013507CCB8 /* LocalPlanner.swift */,
+				99D00CCF75E6D946B149BF7D /* PlanningFinalValidation.swift */,
+				3FC8A183222299732B29371C /* PlanningService.swift */,
+				440A0E0BF9924C25A25AD53B /* PlanningTimeout.swift */,
+				44D00D856E6C884FADE52589 /* PlanningView.swift */,
+			);
+			path = Planning;
+			sourceTree = "<group>";
+		};
+		39398E4FFBA4956AE2FB1543 /* MapToDoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F5D7AA484D9B37A32ABDBC /* WaypointUITests.swift */,
+			);
+			path = MapToDoUITests;
+			sourceTree = "<group>";
+		};
+		68CA1271D2807330AD2D86B0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				832C624461C0DC58DA42393B /* AI */,
+				7EC68DCC113F133612F469F8 /* Export */,
+				CA8C66CD51C6CB3DB0D2B36F /* Home */,
+				BFD6BB949608BA6E06FDA32F /* Map */,
+				37F91E3F95D190F0217FE132 /* Planning */,
+				A1C223460F51B88FD0745227 /* Reminders */,
+				69166E8D7F3569103F886BA9 /* Settings */,
+				CCF033C062A9CF7E244F00CF /* Subscription */,
+				98562A0FE57E8133E3B4C5F8 /* Weather */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		69166E8D7F3569103F886BA9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3742E1E8025B682D9BB67DC6 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		762BE047BA2F140CCE344C9D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D2482C7D7EEEB57F622B4B39 /* AccessPolicy.swift */,
+				90EF9C1286685634F8C87E1E /* AppLinks.swift */,
+				62C9F1329B9D0957AFCC23AD /* TaskItem.swift */,
+				4B722BC17819DACF57CBB7F1 /* TaskStore.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7A5EA5403CC6AF0DB204AC3B /* MapToDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0178F11B0FF735EC44D8794E /* AIParsingTests.swift */,
+				86458BA2183C56E6E7391551 /* AIReleaseGateTests.swift */,
+				A87158354328C1FF11354528 /* CoreTests.swift */,
+				7DB92442D03741934C5405B1 /* DeviceIntegrationTests.swift */,
+				23EC975DE88A3463F74A628D /* ExportTests.swift */,
+				BF30CFD29869B645BFC5148F /* MapTests.swift */,
+				DECA8E73419A9A7E6C588566 /* PlanningFinalValidationTests.swift */,
+				698E8D62F1D91A3D40BBAF14 /* PlanningTests.swift */,
+				4003EA900531C1C345E5C884 /* PlanningTimeoutTests.swift */,
+				6D62836FCC79B2945C6EF70E /* ReminderTests.swift */,
+				C1A215BF69DA42B0B1098B92 /* ReminderDeviceDeliveryTests.swift */,
+				794BC7F28084ABB3547B2923 /* SandboxSubscriptionDiagnosticsTests.swift */,
+				379890A8DECFA51539412F22 /* StoreKitLifecycleTests.swift */,
+				9097D735835BC7C20A50A1CE /* SubscriptionConcurrencyTests.swift */,
+				3BE5843EC408ED8FA676725F /* SubscriptionTests.swift */,
+				04DAEA00B73EC8725AF70128 /* SubscriptionTimeoutTests.swift */,
+				36C4C7E5379E9DD99AFADAB0 /* WeatherTests.swift */,
+			);
+			path = MapToDoTests;
+			sourceTree = "<group>";
+		};
+		7EC68DCC113F133612F469F8 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				F0CC20D7C422F927F4036CE4 /* ExportFormatter.swift */,
+				0D7475E687A748C108DF2DF9 /* ExportView.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		832C624461C0DC58DA42393B /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				896B5E048E079C73716CF917 /* AIConfiguration.swift */,
+				A12900000000000000000002 /* OpenAIRegionGate.swift */,
+				8AFC932657158B4A9A7FE180 /* AIService.swift */,
+				A090A8CDEE06D0844C6C79E3 /* AISettingsView.swift */,
+				5CF6A8FE602598A0BE967247 /* MODEL-SOURCES.md */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		97FE02A56640478D991ECABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B91FF48032317DEFA7BF85C8 /* MapToDo.app */,
+				F2156BF707688E322A99CB8A /* MapToDoTests.xctest */,
+				BED49A5FC03D3E5CD2898B17 /* MapToDoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98562A0FE57E8133E3B4C5F8 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				184E4C637BE33BFF914D07A2 /* README.md */,
+				15B6D08771BA7FE38E284003 /* WeatherCardView.swift */,
+				39148AF45182A912C24CF49A /* WeatherPolicy.swift */,
+				E82F782FEF55D2C3778A0DBF /* WeatherProvider.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		A1C223460F51B88FD0745227 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				F21485FAB45EB9F937655329 /* ReminderService.swift */,
+				7264F8CF7FB95E85D74C906B /* ReminderSettingsView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		A2AF7724D42DEABD7E9BDA14 = {
+			isa = PBXGroup;
+			children = (
+				17DDD42426D7412E9895703D /* Configuration */,
+				3479004AEA0D3D8C66CB1E35 /* MapToDo */,
+				7A5EA5403CC6AF0DB204AC3B /* MapToDoTests */,
+				39398E4FFBA4956AE2FB1543 /* MapToDoUITests */,
+				AD20EA9ACBAB9C735F9F7892 /* Frameworks */,
+				97FE02A56640478D991ECABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A46CF0A077E0052E484B4A81 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A90E86A15A9060B90359BED2 /* MapToDoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AD20EA9ACBAB9C735F9F7892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C39C3CA3F42C8B7C38FD3393 /* MapKit.framework */,
+				960762C383F11C45009A05F3 /* StoreKit.framework */,
+				A02F52175C0936609561DECF /* UserNotifications.framework */,
+				AA907143027BA049DF56A897 /* WeatherKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD5D54F4DFFA6C8D5D9A3377 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				B419FB439EB080B02F6C9799 /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		BFD6BB949608BA6E06FDA32F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8843323256B28102BBA17B12 /* MapLocationService.swift */,
+				D10ECE22D7B45C14FB693ADA /* MapScreen.swift */,
+				293BD178D7D0E7DC2C878638 /* TaskEditorView.swift */,
+				1EE3556267D06480170EE475 /* TaskEditValidation.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		CA8C66CD51C6CB3DB0D2B36F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D779E5157D1D50E040B61 /* RootView.swift */,
+				0BA1A17ADB24086EB8DB719A /* TodayView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CCF033C062A9CF7E244F00CF /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				FAC0B067EFE806BB57F87F99 /* SubscriptionStore.swift */,
+				7078FEE8F6B5FEB842C083F2 /* SubscriptionTimeout.swift */,
+				449CB98DE91AE28FCC2C8752 /* SubscriptionView.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		CD0E1BB3D25862768A48E2F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				214B31674D16E25FF6F953BB /* InfoPlist.strings */,
+				2D9D8940E9DB7E17023E4D4C /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2024D29B931B9179EF882D62 /* MapToDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A412CF53FE6145411E001C5 /* Build configuration list for PBXNativeTarget "MapToDoTests" */;
+			buildPhases = (
+				8C5E33EC96E4480A93519F31 /* Sources */,
+				9B139454843252045F6D3796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA15829C2D6FFAE861EE428 /* PBXTargetDependency */,
+			);
+			name = MapToDoTests;
+			packageProductDependencies = (
+			);
+			productName = MapToDoTests;
+			productReference = F2156BF707688E322A99CB8A /* MapToDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1ADA4CA61DA987C6AA514C0 /* MapToDoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024B2DF0BC1FA17CF26B3E11 /* Build configuration list for PBXNativeTarget "MapToDoUITests" */;
+			buildPhases = (
+				7D4DE6429A41FF69069F4D0C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92433803C74ACD56EC05A9DE /* PBXTargetDependency */,
+			);
+			name = MapToDoUITests;
+			packageProductDependencies = (
+			);
+			productName = MapToDoUITests;
+			productReference = BED49A5FC03D3E5CD2898B17 /* MapToDoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F77EB773CFCA313530A085BF /* MapToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4712DC38CA2294A7A8C03366 /* Build configuration list for PBXNativeTarget "MapToDo" */;
+			buildPhases = (
+				C0A7CF983B7E8234B528EB10 /* Sources */,
+				FBA0CF79BD3A04F0FEBDE784 /* Resources */,
+				761DE06409FBD6D11698765C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapToDo;
+			packageProductDependencies = (
+			);
+			productName = MapToDo;
+			productReference = B91FF48032317DEFA7BF85C8 /* MapToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		371ADE666965EC7BE26C4FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2024D29B931B9179EF882D62 = {
+						DevelopmentTeam = VA8X63NPCS;
+						ProvisioningStyle = Automatic;
+					};
+					C1ADA4CA61DA987C6AA514C0 = {
+						DevelopmentTeam = VA8X63NPCS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F77EB773CFCA313530A085BF;
+					};
+					F77EB773CFCA313530A085BF = {
+						DevelopmentTeam = VA8X63NPCS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF92383EC9F0DC8A7623EB3F /* Build configuration list for PBXProject "MapToDo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = A2AF7724D42DEABD7E9BDA14;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 97FE02A56640478D991ECABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77EB773CFCA313530A085BF /* MapToDo */,
+				2024D29B931B9179EF882D62 /* MapToDoTests */,
+				C1ADA4CA61DA987C6AA514C0 /* MapToDoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B139454843252045F6D3796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FCECAC28E9A6E47D1B55F4 /* MapToDo.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA0CF79BD3A04F0FEBDE784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFCB49DAFAED5692E433D6E /* Assets.xcassets in Resources */,
+				5AD710804F2360DD175C5B8B /* InfoPlist.strings in Resources */,
+				8A37F9B62E042081770F0CEC /* Localizable.strings in Resources */,
+				9A0B7F74457A42B635A1CB4A /* MODEL-SOURCES.md in Resources */,
+				4FB760B7E7B93ECB7251CE5D /* PrivacyInfo.xcprivacy in Resources */,
+				FB05FCBC37EF5B4FABCFE587 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4DE6429A41FF69069F4D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFBBDD131A4B391C2826DA2 /* WaypointUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5E33EC96E4480A93519F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF209F1A1B82BF6315E8F08 /* AIParsingTests.swift in Sources */,
+				C3D5832B009433B08EFFE10D /* AIReleaseGateTests.swift in Sources */,
+				1A0E510559582EFA32493E49 /* CoreTests.swift in Sources */,
+				4219E7219F89702A7D697285 /* DeviceIntegrationTests.swift in Sources */,
+				CC5243C1726205CE6356AB1A /* ExportTests.swift in Sources */,
+				5F0A313448F9B85C386E1F92 /* MapTests.swift in Sources */,
+				C5AE5ABD345D4F5E013BCE46 /* PlanningFinalValidationTests.swift in Sources */,
+				AFFAABA4FE8758504494B673 /* PlanningTests.swift in Sources */,
+				8D3CECA73987E7296D8DEA6A /* PlanningTimeoutTests.swift in Sources */,
+				AEF9803E4775E13B96557E1B /* ReminderTests.swift in Sources */,
+				928E05BB305740F885E5F73A /* ReminderDeviceDeliveryTests.swift in Sources */,
+				648799870AE3D33D18325A84 /* SandboxSubscriptionDiagnosticsTests.swift in Sources */,
+				8D582975DCE3F4E5B8B80737 /* StoreKitLifecycleTests.swift in Sources */,
+				EC6BCF4E6577457592F1711A /* SubscriptionConcurrencyTests.swift in Sources */,
+				32CB6417053CB73AAB548E21 /* SubscriptionTests.swift in Sources */,
+				807C4E486675D6E65838FFF6 /* SubscriptionTimeoutTests.swift in Sources */,
+				62406F357D94AD54B7529B55 /* WeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A7CF983B7E8234B528EB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297873F3B5583BB5C42FEEB6 /* AIConfiguration.swift in Sources */,
+				A12900000000000000000001 /* OpenAIRegionGate.swift in Sources */,
+				D4159DD792D8D0317B843802 /* AIService.swift in Sources */,
+				53D41F66633F4540C78A87EF /* AISettingsView.swift in Sources */,
+				E11390DC6741C69052E8FF50 /* AccessPolicy.swift in Sources */,
+				EA99BDD782BA8DF1E8CC98C0 /* AppLinks.swift in Sources */,
+				DA0196BFAB30A3D693B4FF51 /* ExportFormatter.swift in Sources */,
+				E968374974B5230A30AFB847 /* ExportView.swift in Sources */,
+				BA02B37E5EB4CE83B7035BFE /* LocalPlanner.swift in Sources */,
+				216B2437BD656543A6612737 /* MapLocationService.swift in Sources */,
+				6551DB788B7E73883B0E8C47 /* MapScreen.swift in Sources */,
+				C513DA9F02C7CEF049AD0CDD /* MapToDoApp.swift in Sources */,
+				A224EF2B7A22DA6C4E47751C /* PlanningFinalValidation.swift in Sources */,
+				61BABC7E5E064318BE5986E7 /* PlanningService.swift in Sources */,
+				93B3C221AB62D19B85063E8F /* PlanningTimeout.swift in Sources */,
+				5CCE72D500098FA3F9DAC2AF /* PlanningView.swift in Sources */,
+				E29B31234A8C2CD25943372C /* ReminderService.swift in Sources */,
+				175B5B618AEDEA14D6AE2E23 /* ReminderSettingsView.swift in Sources */,
+				D946AB3B86C27E05F0E8D9C5 /* RootView.swift in Sources */,
+				9569432B55FD5ADD46B71B4C /* SettingsView.swift in Sources */,
+				4079FC64EC3E1A310CAD53DF /* SubscriptionStore.swift in Sources */,
+				1ACFB4398BED6AF7E95553DD /* SubscriptionTimeout.swift in Sources */,
+				F1808712C08377EEA93EB7E7 /* SubscriptionView.swift in Sources */,
+				FEC87ECABFA7AE660397EE50 /* TaskEditValidation.swift in Sources */,
+				0D51786244D94500E4ABD0E8 /* TaskEditorView.swift in Sources */,
+				49453502D30773B86E3DCE7F /* TaskItem.swift in Sources */,
+				AEC073225EC3117D5EF0C371 /* TaskStore.swift in Sources */,
+				02EA75B047D9F79775C525F9 /* Theme.swift in Sources */,
+				4E363D3607947C686A6A781E /* TodayView.swift in Sources */,
+				DF53F16DBF1DDCED8536FF70 /* WeatherCardView.swift in Sources */,
+				EC6A6E51BCB5BDB65E0B1533 /* WeatherPolicy.swift in Sources */,
+				2A340AFDF1FB2369D5F7390D /* WeatherProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DA15829C2D6FFAE861EE428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77EB773CFCA313530A085BF /* MapToDo */;
+			targetProxy = 4C258FDFBC2854EE59ED1DA2 /* PBXContainerItemProxy */;
+		};
+		92433803C74ACD56EC05A9DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77EB773CFCA313530A085BF /* MapToDo */;
+			targetProxy = F46924F27E8C04920DFE5AA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		214B31674D16E25FF6F953BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A84B7CACF7F6534C763935 /* en */,
+				DA24F1C735933AED4662E497 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D9D8940E9DB7E17023E4D4C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4A885A6C4852FC08CEE9B4 /* en */,
+				8B2CE95AD92F37A38B4854E5 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01D47264F3D4B75F7117870A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waypoint.MapToDoUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = MapToDo;
+			};
+			name = Release;
+		};
+		3EBA2B41F5E88F7A846E162E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waypoint.MapToDoTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapToDo.app/MapToDo";
+			};
+			name = Release;
+		};
+		4093F092B059E635375A9649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Configuration/MapToDo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waypoint.maptodo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		548FE77DAA6050312E052BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waypoint.MapToDoUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = MapToDo;
+			};
+			name = Debug;
+		};
+		6524537A66D04EC23069AC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Configuration/MapToDo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waypoint.maptodo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6D62E74F3F9DFFF8809FC5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VA8X63NPCS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B5515D9F7EE2B1094E1B26C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VA8X63NPCS;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D9DA95D5303CC0BB79E575CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waypoint.MapToDoTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapToDo.app/MapToDo";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024B2DF0BC1FA17CF26B3E11 /* Build configuration list for PBXNativeTarget "MapToDoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548FE77DAA6050312E052BB1 /* Debug */,
+				01D47264F3D4B75F7117870A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4712DC38CA2294A7A8C03366 /* Build configuration list for PBXNativeTarget "MapToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6524537A66D04EC23069AC09 /* Debug */,
+				4093F092B059E635375A9649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A412CF53FE6145411E001C5 /* Build configuration list for PBXNativeTarget "MapToDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DA95D5303CC0BB79E575CA /* Debug */,
+				3EBA2B41F5E88F7A846E162E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BF92383EC9F0DC8A7623EB3F /* Build configuration list for PBXProject "MapToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D62E74F3F9DFFF8809FC5F3 /* Debug */,
+				B5515D9F7EE2B1094E1B26C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 371ADE666965EC7BE26C4FC8 /* Project object */;
+}

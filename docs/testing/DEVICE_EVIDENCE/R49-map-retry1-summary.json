@@ -1,0 +1,48 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64e",
+        "deviceId" : "00008150-00066CE13C43C01C",
+        "deviceName" : "geruyang的iPhone",
+        "modelName" : "iPhone 17 Pro Max",
+        "osBuildNumber" : "24A446",
+        "osVersion" : "27.0.1",
+        "platform" : "iOS"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 1,
+      "passedTests" : 8,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "R49map"
+      }
+    }
+  ],
+  "environmentDescription" : "<unknown> · Built with macOS 26.6.2",
+  "expectedFailures" : 0,
+  "failedTests" : 1,
+  "finishTime" : 1791792636.134,
+  "passedTests" : 8,
+  "result" : "Failed",
+  "skippedTests" : 0,
+  "startTime" : 1791792230.49,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "XCTAssertGreaterThanOrEqual failed: (\"43.99999999999997\") is less than (\"44.0\") - Location action needs a full 44pt touch height.",
+      "targetName" : "MapToDoUITests",
+      "testIdentifier" : 9,
+      "testIdentifierString" : "WaypointUITests/testMapSelectionCanBeReplacedAndCancelledWithoutCreatingTask()",
+      "testName" : "testMapSelectionCanBeReplacedAndCancelledWithoutCreatingTask()"
+    }
+  ],
+  "title" : "Test - Transient Testing",
+  "topInsights" : [
+
+  ],
+  "totalTestCount" : 9
+}

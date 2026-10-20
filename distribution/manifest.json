@@ -1,0 +1,81 @@
+{
+  "createdOn": "2026-10-19",
+  "latest": "1.0.0-build4",
+  "artifacts": [
+    {
+      "path": "distribution/1.0.0-build2/DistributionSummary.plist",
+      "bytes": 1615,
+      "sha256": "119a74f051a675e296d60d522e277ad35d41e97f5ae3343e1471a926c6aac704"
+    },
+    {
+      "path": "distribution/1.0.0-build2/ExportOptions.plist",
+      "bytes": 622,
+      "sha256": "7500a259a61d0c52b3b38742500503a6a79409b6b1411bd15f3094c0046366b4"
+    },
+    {
+      "path": "distribution/1.0.0-build2/MapToDo.ipa",
+      "bytes": 1294503,
+      "sha256": "186f498a4bbb332f906994b8f9dbbf4cc71e20f9a5e76e83f58f6144f96bb5f0"
+    },
+    {
+      "path": "distribution/1.0.0-build2/Packaging.log",
+      "bytes": 17827,
+      "sha256": "dc7f87ae9cbbb00a3285a38042d2f20d15da81cdfcf20ca06f637514c1628d15"
+    },
+    {
+      "path": "distribution/1.0.0-build2/Waypoint-1.0.0-2-retry1.xcarchive.zip",
+      "bytes": 2383010,
+      "sha256": "0a157748dcb66ee987639ff27d07377b70c3632deac9edf68b3338b8b5faf0d6"
+    },
+    {
+      "path": "distribution/1.0.0-build3/DistributionSummary.plist",
+      "bytes": 1615,
+      "sha256": "8e22373ab8e649e9bac7b08408fc332775badf7205bb4231acd9841321193e1a"
+    },
+    {
+      "path": "distribution/1.0.0-build3/ExportOptions.plist",
+      "bytes": 622,
+      "sha256": "7500a259a61d0c52b3b38742500503a6a79409b6b1411bd15f3094c0046366b4"
+    },
+    {
+      "path": "distribution/1.0.0-build3/MapToDo.ipa",
+      "bytes": 1344704,
+      "sha256": "e844d062624f0d479e94dad7accf365c7b9087b8315b690f323e1b81f7848ed4"
+    },
+    {
+      "path": "distribution/1.0.0-build3/Packaging.log",
+      "bytes": 17845,
+      "sha256": "3e4f8d6f54a3659d717b3cfc7f037b766c961f437ce41fab005d57fb3244bc63"
+    },
+    {
+      "path": "distribution/1.0.0-build3/Waypoint-1.0.0-3.xcarchive.zip",
+      "bytes": 2451297,
+      "sha256": "2b634775d76848175d30deb55decba18394c29b4c53e90b7a6aca85adcd5ab89"
+    },
+    {
+      "path": "distribution/1.0.0-build4/DistributionSummary.plist",
+      "bytes": 1615,
+      "sha256": "cbcf9fe07b9dee8855c799ab37274380f0d29b7bc93caa9639f76cd2f79ab8de"
+    },
+    {
+      "path": "distribution/1.0.0-build4/ExportOptions.plist",
+      "bytes": 622,
+      "sha256": "7500a259a61d0c52b3b38742500503a6a79409b6b1411bd15f3094c0046366b4"
+    },
+    {
+      "path": "distribution/1.0.0-build4/MapToDo.ipa",
+      "bytes": 1389730,
+      "sha256": "a34bbe703e6ab6691edd80fbb1fe63bc1aa92468e1c6b9cdabfa036b37cb27c8"
+    },
+    {
+      "path": "distribution/1.0.0-build4/Packaging.log",
+      "bytes": 17764,
+      "sha256": "ec8b8fd8124f97cbe5396c4001db5c9fbf2b08746232505ff646b99231799e56"
+    },
+    {
+      "path": "distribution/1.0.0-build4/Waypoint-1.0.0-4.xcarchive.zip",
+      "bytes": 2512929,
+      "sha256": "044ef2b625eea2abbb4fc768dc8c6b90b9791173b4b467b1ecea8a26d132cc5b"
+    }
+  ]
+}

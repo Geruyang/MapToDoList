@@ -1,0 +1,69 @@
+{
+  "identifier": "F4192D4A-9F9B-45D8-B26C-12A65E39E01E",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_applicationInternalID": "",
+    "_developerTeamID": "",
+    "_failTransactionsEnabled": false,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
+    {
+      "id": "6F91E41F",
+      "localizations": [
+        {
+          "description": "Waypoint Annual",
+          "displayName": "Waypoint",
+          "locale": "en_US"
+        },
+        {
+          "description": "行迹年度订阅",
+          "displayName": "行迹",
+          "locale": "zh_CN"
+        }
+      ],
+      "name": "Waypoint Premium",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "9.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "B19BC46D",
+          "introductoryOffer": {
+            "internalID": "86552D9F",
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W",
+            "displayPrice": "0.00",
+            "numberOfPeriods": 1
+          },
+          "localizations": [
+            {
+              "description": "Map tasks, reminders and planning",
+              "displayName": "Waypoint Annual",
+              "locale": "en_US"
+            },
+            {
+              "description": "地图事项、提醒与规划",
+              "displayName": "行迹年度订阅",
+              "locale": "zh_CN"
+            }
+          ],
+          "productID": "com.waypoint.maptodo.annual",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Waypoint Annual",
+          "subscriptionGroupID": "6F91E41F",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

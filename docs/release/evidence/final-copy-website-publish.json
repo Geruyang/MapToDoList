@@ -1,0 +1,26 @@
+{
+  "previous": "740ddddde982b29ccad8f7b8f226fcef1ec2cad9",
+  "commit": "4f639372f35435938aa2a4acec8eba8c2a561a08",
+  "ref": "refs/heads/main",
+  "files": {
+    "index.html": "6e99a6739ea99c317e2e4115f9b4e13a2dd388750630b44522843d5ec98fd86c",
+    "privacy/index.html": "d6009af979ffc64a3200a7b9c0b07b030648f8709c918f1449b924da93824f21",
+    "terms/index.html": "affdfdcf9ed04ec08b2d4ecaf3d235c8ab3ce417bb792a08d3636e7497a37c78"
+  },
+  "scope": "only three HTML files; base tree preserves all other remote files",
+  "deployment": "verified live",
+  "verification": {
+    "index.html": {
+      "httpStatus": 200,
+      "matchesPublishedSource": true
+    },
+    "privacy/index.html": {
+      "httpStatus": 200,
+      "matchesPublishedSource": true
+    },
+    "terms/index.html": {
+      "httpStatus": 200,
+      "matchesPublishedSource": true
+    }
+  }
+}

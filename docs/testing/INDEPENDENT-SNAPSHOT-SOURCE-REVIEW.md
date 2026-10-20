@@ -1,0 +1,31 @@
+# Independent snapshot-timeout source review
+
+2026-10-11. Read-only review of the current source and `DEVICE_INPUT_LAYOUT_J1_RESULTS.md`. No build/test/simulator, device command, App mutation, credential access, or additional process instrumentation. Current source may have moved after the recorded J1 bundle; match the recorded binary/source hashes before drawing a candidate-specific conclusion.
+
+## Conclusion
+
+**No confirmed source defect explains the 136.239-second English Today snapshot failure.** No MainActor busy wait, synchronous network request, unbounded synchronous loop, or self-triggering SwiftUI state/render feedback loop was found in the inspected startup/Root/Today paths. The supplied evidence establishes repeated accessibility-query timeouts; it does not establish which thread or system service was stalled. No speculative P1 attribution is issued.
+
+## Concrete source observations
+
+- `MapToDo/App/MapToDoApp.swift:11–18` starts subscription refresh and reminder reconciliation on appearance and again on active scene transition. This can duplicate startup requests. `SubscriptionStore.swift:76–92` does another entitlement read before its product-refresh guard, so duplicate entitlement reads are possible. The product operation is guarded; `ReminderService.swift:106–111` coalesces overlapping reconciliation with revision/synchronizing. All SDK reads use `await`. This is finite duplicate work, not evidence that MainActor is blocked for the timeout duration.
+- `SubscriptionStore.swift:41–54` has a long-lived `for await Transaction.updates`, and `ReminderService.swift:112–162` has a revision reconciliation loop. The former suspends awaiting SDK updates; the latter awaits notification-center operations and returns for a stable revision. Neither contains a source path that continually changes `store.tasks`. The startup `.task(id: store.tasks)` therefore has no observed self-feedback chain.
+- `TaskStore.swift:55–75` does synchronous JSON file IO and coding on MainActor at startup and explicit mutation. This is a scaling risk for unusually large files, not a demonstrated cause with the three-task seeded fixture. `TodayView.swift:13–15` repeatedly filters/sorts and reads calendars, and `Theme.swift:48` constructs LocalTimeFormatter/DateFormatter during row rendering. These are finite CPU work; no measured duration in this pass supports attributing a 136-second freeze to them.
+- `RootView.swift:8–28` has a plain VStack/TabView layout. Its only change handler consumes an opened notification ID and sets it to nil; the nil callback returns. It is not a render loop. There is no GeometryReader/preference callback updating Root/Today layout state.
+- `TodayView.swift:16–61` renders a ScrollView/VStack, determinate progress, rows, scaled bottom padding, and sheets triggered by explicit state. `@ScaledMetric` reads environment; its padding does not write geometry back into state. The editor now uses per-presentation item/identity. No editor/weather task is launched by merely querying Today.
+- `MapScreen.swift:25–44` uses GeometryReader to read height and chooses a compact layout without state mutation during layout. `:95–99` uses ViewThatFits for alternative row layouts, also without feedback writes. Its initial fit is guarded once; reverse-geocode/search run only on user actions and are not invoked by Today appearance. A hidden live MapKit surface may still matter to OS accessibility or idleness, but the source does not establish that it causes this failure.
+- `WaypointUITests.swift:489–496` checks tab existence, captures Map, taps Today, then queries export. The documented failure occurs before the added API/export/paywall checks. Those downstream UI features cannot be assumed responsible solely because they exist in this candidate.
+
+## Evidence boundaries
+
+The recorded screenshots show Map/Today without a visible system modal; testmanagerd authorization succeeded and App/Runner launched. This weakens a new trust-denial/modal explanation but does not prove App main-thread responsiveness or accessibility daemon responsiveness. The interrupted result lacks a finalized Info.plist/activity map, so raw PNGs cannot precisely place the stall within a test step. The simultaneous memory-guard event and orientation changes are observations, not established causes. `-j1 ... -j8` is a build-concurrency issue; it does not directly describe runtime SwiftUI/XCUITest concurrency.
+
+## Single-variable next checks, for device owner only
+
+1. **Baseline:** use the exact already-installed J1 candidate, same English/seed/no-access launch arguments, one focused case and no reinstall. Record whether the first Today/export query times out again. Avoid the entire eight-case group. Keep real assertions; do not increase all timeouts or weaken tests.
+2. **Accessibility vs main thread:** during a repeated stall, capture one app main-thread stack and testmanagerd/accessibility diagnostic at the same timestamp, if the sole-heavy owner can do so safely. A parked MainActor in SDK `await` is not itself blocking. A repeatedly identical synchronous stack or a busy render/AX stack would be stronger evidence. A screenshot alone is insufficient.
+3. **Seeded row cost:** retain binary/language/no-access/configuration and change only the seed-demo launch flag after a controlled reset. Compare the same Today/export query with empty vs three-task data. A difference would narrow row/AX/data involvement, not automatically prove a DateFormatter bug.
+4. **Idleness hypothesis:** only after preserving the baseline, a diagnostic run can change one quiescence/idleness option if the runner supports it. Success with waiting disabled would implicate idleness detection, not validate product accessibility or authorize weakening shipping tests. Do not combine this with new signing, installs, orientation changes, or App changes.
+5. **Hidden Map hypothesis:** if traces specifically implicate MapKit, isolate it in one future diagnostic candidate while retaining Today/test configuration. Do not rebuild or remove Map merely because it is present; this pass supplies no evidence warranting that mutation.
+
+No verification result has been manufactured from source inspection. The device owner’s configuration/log investigation remains authoritative for the next runtime evidence.

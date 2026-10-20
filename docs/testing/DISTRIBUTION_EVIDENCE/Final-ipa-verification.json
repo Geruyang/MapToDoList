@@ -1,0 +1,26 @@
+{
+  "IPA": "build/distribution/export-build2/MapToDo.ipa",
+  "IPASHA256": "186f498a4bbb332f906994b8f9dbbf4cc71e20f9a5e76e83f58f6144f96bb5f0",
+  "bundle": "com.waypoint.maptodo",
+  "version": "1.0.0",
+  "build": "2",
+  "family": [
+    1
+  ],
+  "getTaskAllow": false,
+  "hasDeviceList": false,
+  "team": "VA8X63NPCS",
+  "applicationIdentifier": "VA8X63NPCS.com.waypoint.maptodo",
+  "weatherkit": true,
+  "timeSensitive": true,
+  "authorities": [
+    "Authority=Apple Distribution: Ge Ruyang (VA8X63NPCS)",
+    "Authority=Apple Worldwide Developer Relations Certification Authority",
+    "Authority=Apple Root CA",
+    "TeamIdentifier=VA8X63NPCS"
+  ],
+  "codesignValid": true,
+  "debugMarkersFound": [],
+  "testBundles": [],
+  "privacyManifestPresent": true
+}

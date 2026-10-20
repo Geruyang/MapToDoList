@@ -1,0 +1,14 @@
+# R29 map preview diagnosis
+
+Read-only xcresult extraction and MapScreen-only repair; no build/install/device execution.
+
+Evidence exported with `xcresulttool export attachments` to `R29-map4-attachments/`. Final video frames extracted with AVFoundation are `95F984D1-6930-42C9-9909-EDFE65EC5270-last.png` (search) and `059A5214-B4C1-4ECE-BF80-186A6C9D0431-last.png` (existing tasks).
+
+Existing-task AX hierarchy `67E987E7-183C-446B-BC37-6704C65E3E2F.txt` lines 14–24 has map.surface, current location, Ningbo POIs and AnnotationContainer with current location only, no saved task annotation. Lines 36–45 show three seeded tasks (Shanghai locations) in summary. Screenshot also shows Ningbo camera and no saved pins. Thus missing savedPin is not evidence of button-role failure: annotations were outside the camera. MapLocationService authorization callback requests location even on initialization with preexisting authorization; MapScreen previously centered on every coordinate update, overwriting initial task camera. Repair gates camera recentering on explicit locate button intent, and uses an explicit padded saved-task rect rather than `.automatic` including UserAnnotation. MapTaskPin additionally declares ignored children and button trait; actual MapKit AX role still needs runtime validation.
+
+Correction after exact source-line/log review: the earlier report incorrectly described the helper failure as coordinate ID lookup. UITests line 187 is `map.selection.confirm.isHittable`; coordinate lookup is line 190. R29 log lines 132–135, 175–178 and 215–218 stop on repeated Find `map.selection.confirm`, never reaching cancel or coordinates. Therefore no runtime coordinate accessibility failure has been established. The earlier ViewThatFits attribution is withdrawn. Removing duplicated coordinate/details candidates was a source precaution, not a demonstrated fix for these failures.
+
+The screenshot visibly shows coordinates and confirmation buttons, but pixels do not establish accessibility identifiers or hitability. The available search AX snapshot has an empty root child list, so it cannot establish which IDs the visible buttons received.
+No test changes. Preserve marker/no-editor-before-confirm, hittable actions, exact coordinate equality and persisted coordinates. Suggested runtime: rerun four original cases unchanged; inspect any failing map.task ID with a descendants(any) query to distinguish MapKit role bridging from visibility, without weakening pin requirement. A populated AX hierarchy captured before the helper assertion is required to inspect confirm/cancel IDs, roles and frames; preserve the current hitability assertions.
+
+MapScreen post-repair SHA256: `56f19d5be718555f42b5b2621a12db9b196094a64afea8594748984a5eeb5174`. `swiftc -frontend -parse` exit 0; no runtime PASS claimed.

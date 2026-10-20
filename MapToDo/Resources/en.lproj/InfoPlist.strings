@@ -1,0 +1,2 @@
+"CFBundleDisplayName" = "Waypoint";
+"NSLocationWhenInUseUsageDescription" = "Waypoint uses your location to find nearby places and check OpenAI regional availability when you open AI settings. Without location access, map search and other AI providers remain available; OpenAI stays unavailable.";

@@ -1,0 +1,28 @@
+{
+  "test": "Authorized sequential OpenAI candidate validation",
+  "timestamp_utc": "2026-10-11T13:13:33.373374+00:00",
+  "model": "gpt-6.1-sol",
+  "results": [
+    {
+      "ordinal": 22,
+      "http_status": 401,
+      "classification": "authentication_rejected"
+    }
+  ],
+  "selected_ordinal": null,
+  "start_ordinal": 22,
+  "prior_22_status": "network_or_response_error; exact exception type not recorded",
+  "limitations": [
+    "Python source-shaped HTTP fixture, not Swift/iOS App E2E",
+    "No real user task data, no Keychain/app writes, no balance/org inspection"
+  ],
+  "candidate_count": 47,
+  "request_shape": {
+    "endpoint": "https://api.openai.com/v1/responses",
+    "reasoning_effort": "low",
+    "store": false,
+    "max_output_tokens": 512,
+    "synthetic_task_count": 1
+  },
+  "result": "BLOCKED: no usable candidate found"
+}

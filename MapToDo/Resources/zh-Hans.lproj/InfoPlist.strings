@@ -1,0 +1,2 @@
+"CFBundleDisplayName" = "行迹";
+"NSLocationWhenInUseUsageDescription" = "行迹使用你的位置显示附近地点，并在打开 AI 设置时检查 OpenAI 地区可用性。你可不授权，地图搜索和其他 AI 服务仍可使用，OpenAI 将保持不可用。";

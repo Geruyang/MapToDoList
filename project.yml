@@ -1,0 +1,69 @@
+name: MapToDo
+options:
+  bundleIdPrefix: com.waypoint
+  deploymentTarget:
+    iOS: '17.0'
+  createIntermediateGroups: true
+  developmentLanguage: en
+  knownRegions: [en, zh-Hans]
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    DEVELOPMENT_TEAM: VA8X63NPCS
+    TARGETED_DEVICE_FAMILY: '1'
+    MARKETING_VERSION: '1.0.0'
+    CURRENT_PROJECT_VERSION: '1'
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+targets:
+  MapToDo:
+    type: application
+    platform: iOS
+    sources:
+      - MapToDo
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.waypoint.maptodo
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Configuration/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Configuration/MapToDo.entitlements
+    dependencies:
+      - sdk: MapKit.framework
+      - sdk: WeatherKit.framework
+      - sdk: StoreKit.framework
+      - sdk: UserNotifications.framework
+  MapToDoTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - MapToDoTests
+      - path: Configuration/MapToDo.storekit
+        buildPhase: resources
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: MapToDo
+  MapToDoUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [MapToDoUITests]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: MapToDo
+schemes:
+  MapToDo:
+    build:
+      targets:
+        MapToDo: all
+    run:
+      config: Debug
+      storeKitConfiguration: Configuration/MapToDo.storekit
+    test:
+      config: Debug
+      targets:
+        - MapToDoTests
+        - MapToDoUITests

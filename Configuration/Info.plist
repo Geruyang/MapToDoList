@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleDisplayName</key><string>Waypoint</string>
+<key>CFBundleName</key><string>$(PRODUCT_NAME)</string>
+<key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+<key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>$(MARKETING_VERSION)</string>
+<key>CFBundleVersion</key><string>$(CURRENT_PROJECT_VERSION)</string>
+<key>LSRequiresIPhoneOS</key><true/>
+<key>UILaunchScreen</key><dict/>
+<key>UIApplicationSceneManifest</key><dict><key>UIApplicationSupportsMultipleScenes</key><false/></dict>
+<key>NSLocationWhenInUseUsageDescription</key><string>Waypoint uses your location to find nearby places and check OpenAI regional availability when you open AI settings. Without location access, map search and other AI providers remain available; OpenAI stays unavailable.</string>
+<key>UISupportedInterfaceOrientations</key><array><string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationLandscapeLeft</string><string>UIInterfaceOrientationLandscapeRight</string></array>
+<key>UISupportedInterfaceOrientations~ipad</key><array><string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationPortraitUpsideDown</string><string>UIInterfaceOrientationLandscapeLeft</string><string>UIInterfaceOrientationLandscapeRight</string></array>
+<key>ITSAppUsesNonExemptEncryption</key><false/>
+</dict></plist>

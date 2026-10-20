@@ -1,0 +1,30 @@
+{
+  "submitted": true,
+  "submissionID": "e27f186c-2fb1-450f-a4ed-84081d05968f",
+  "displayedAt": "2026-10-11 11:18",
+  "timeZone": "America/Los_Angeles",
+  "status": "Waiting for Review",
+  "items": [
+    {
+      "type": "app",
+      "version": "1.0.0",
+      "build": "3",
+      "status": "Waiting for Review"
+    },
+    {
+      "type": "annualSubscription",
+      "appleID": "6821572701",
+      "status": "Waiting for Review"
+    },
+    {
+      "type": "subscriptionGroup",
+      "id": "22464265",
+      "status": "Waiting for Review"
+    }
+  ],
+  "manualRelease": true,
+  "approved": false,
+  "published": false,
+  "DOM": "docs/release/evidence/build3-review-submission-dom.txt",
+  "screenshot": "docs/release/evidence/build3-review-submitted.png"
+}

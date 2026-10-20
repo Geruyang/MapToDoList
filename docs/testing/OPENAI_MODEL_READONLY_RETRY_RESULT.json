@@ -1,0 +1,14 @@
+{
+  "test": "OpenAI read-only model visibility",
+  "timestamp_utc": "2026-10-11T13:37:19.007916+00:00",
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/models",
+      "http_status": 200,
+      "target_model_visible": true
+    }
+  ],
+  "generation_attempted": false,
+  "result": "PASS: authentication; requested model catalog visibility confirmed"
+}

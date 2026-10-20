@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-12T08:18:58.430799+00:00",
+  "mainCandidate": "R49",
+  "sourceSHA": "5ad0e58299e63a1602b5efb06f054113478ea0b31d8cfc3ea6a224ca79a2af10",
+  "productInputsUnchanged": 48,
+  "unit": {
+    "pass": 18,
+    "fail": 0,
+    "skip": 0
+  },
+  "scopedUI": {
+    "uniqueScenariosAccepted": 9,
+    "eightPassedIn": "R49-map-retry1.xcresult",
+    "lastPassedIn": "R50-map.xcresult",
+    "originalFailure": "43.99999999999997pt AX serialization vs44.0, corrected test-only1e-6pt tolerance",
+    "noFailedRunRelabeled": true
+  },
+  "gallery": {
+    "pass": 1,
+    "fail": 0,
+    "noDemoEntitlement": true,
+    "noPaidOrWritabilityClaim": true
+  },
+  "visualReview": "Independent ACCEPT: R49-independent-review.md, all10 store PNGs plus actual R50normal/AX images.",
+  "finalMapAcceptance": true
+}

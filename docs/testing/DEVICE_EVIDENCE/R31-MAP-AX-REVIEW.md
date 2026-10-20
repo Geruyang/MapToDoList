@@ -1,0 +1,11 @@
+# R31 map confirmation AX evidence
+
+R31 extraction only; no product/test source mutation, build, install or device execution. Attachments exported to `R31-map4-attachments`. Four final video frames extracted with AVFoundation beside original recordings.
+
+Exact helper lines: 184 card existence, 185 pin existence, 186 editor absence, 187 confirm.isHittable, 188 cancel.isHittable, 190 coordinate existence. All four R31 cases fail at 187 after repeated Find `map.selection.confirm`: log lines 57–60, 115–118, 159–162, 199–202. No conclusion about cancel or coordinate AX success/failure is supported. The previous R29 coordinate failure attribution is withdrawn in R29-MAP-DIAGNOSIS.md.
+
+Existing saved pin now succeeds: R31 log 44–52 waits for saved button, finds/taps `map.task.885BB350-3032-4645-B0B5-EE93EA099523`, then selected card/pin exists. Thus prior off-camera saved annotations are repaired in this scenario. Final frame `4ACCBBEA-CBAC-4035-A6AE-7929A3BA4475-last.png` shows selected Shanghai task, marker and visible Open task/Cancel selection buttons. No keyboard or modal visibly covers these actions; screenshot alone does not prove AX hitability.
+
+Available binary AX attachments were decoded using plistlib. Their object strings contain no selection labels or button IDs; UI Snapshot `533AC52F-8B70-4442-BA44-6E66218DDDAC` has an application root and empty children. Synthesized-event attachments likewise contain no populated selection tree. This is insufficient to determine whether parent `map.selection.card` overrides descendants, AnyLayout affects bridge IDs, or correct IDs exist with nonhittable frames.
+
+Source shows card identifier on enclosing VStack, IDs on the two buttons after frame modifiers, and AnyLayout around actions. Parent-ID propagation is plausible but unconfirmed. Next single-variable observation: attach full app.debugDescription and screenshot immediately before assertion; inspect exact label/identifier/type/frame for Confirm place/Open task and Cancel selection, all matches of map.selection.card, and confirm ID match count. Keep strict isHittable/marker/no-editor/coordinate assertions. Do not change layout until populated AX data establishes the mechanism.

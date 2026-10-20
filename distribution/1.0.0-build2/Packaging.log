@@ -1,0 +1,177 @@
+2026-10-11 16:59:09 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc7cd61b3b0; archive(resolved)="<IDEArchive: 0x7fc7cd00fa70>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team(resolved)="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	Chain (15, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc7cd61b3b0; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x7fc7cd61b120; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7cd61af10; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7d16ca8e0; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7d1e47680; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7d1b4f850; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7d1e47230; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7d16e0ca0; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7d16e0fb0; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7d1b4b030; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7d1b26ba0; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7d16c7ac0; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="<IDEProvisioningBasicTeam: 0x7fc7d1e37fe0; teamID='VA8X63NPCS', teamName='(null)'>">
+	<IDEDistributionContext: 0x7fc7cd15ba10; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="(null)">
+	<IDEDistributionContext: 0x7fc7d1b2e780; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc7cd5a7d40>", team="(null)">
+	<IDEDistributionContext: 0x7fc7cd010580; archive = "<IDEArchive: 0x7fc7cd00fa70>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7fc7cd61b3b0>
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2026-10-11 16:59:09 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/geruyang/AIProject/MapToDoList/build/distribution/Waypoint-1.0.0-2-retry1.xcarchive/Products/Applications/MapToDo.app' '/var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Root/Payload/MapToDo.app'
+2026-10-11 16:59:09 +0000  >>> Copying /Users/geruyang/AIProject/MapToDoList/build/distribution/Waypoint-1.0.0-2-retry1.xcarchive/Products/Applications/MapToDo.app 
+2026-10-11 16:59:09 +0000  copying file ./_CodeSignature/CodeResources ... 
+2026-10-11 16:59:09 +0000  4841 bytes for ./_CodeSignature/CodeResources
+2026-10-11 16:59:09 +0000  copying file ./zh-Hans.lproj/Localizable.strings ... 
+2026-10-11 16:59:09 +0000  15706 bytes for ./zh-Hans.lproj/Localizable.strings
+2026-10-11 16:59:09 +0000  copying file ./zh-Hans.lproj/InfoPlist.strings ... 
+2026-10-11 16:59:09 +0000  309 bytes for ./zh-Hans.lproj/InfoPlist.strings
+2026-10-11 16:59:09 +0000  copying file ./en.lproj/Localizable.strings ... 
+2026-10-11 16:59:09 +0000  35657 bytes for ./en.lproj/Localizable.strings
+2026-10-11 16:59:09 +0000  copying file ./en.lproj/InfoPlist.strings ... 
+378 bytes for ./en.lproj/InfoPlist.strings
+2026-10-11 16:59:09 +0000  copying file ./AppIcon60x60@2x.png ... 
+2026-10-11 16:59:09 +0000  4589 bytes for ./AppIcon60x60@2x.png
+copying file ./README.md ... 
+2026-10-11 16:59:09 +0000  3499 bytes for ./README.md
+copying file ./MapToDo ... 
+2026-10-11 16:59:09 +0000  1599552 bytes for ./MapToDo
+2026-10-11 16:59:09 +0000  copying file ./Assets.car ... 
+42248 bytes for ./Assets.car
+2026-10-11 16:59:09 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2026-10-11 16:59:09 +0000  5799 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./PrivacyInfo.xcprivacy ... 
+4183 bytes for ./PrivacyInfo.xcprivacy
+2026-10-11 16:59:09 +0000  copying file ./MODEL-SOURCES.md ... 
+2026-10-11 16:59:09 +0000  3716 bytes for ./MODEL-SOURCES.md
+copying file ./embedded.mobileprovision ... 
+14602 bytes for ./embedded.mobileprovision
+2026-10-11 16:59:09 +0000  copying file ./Info.plist ... 
+2026-10-11 16:59:09 +0000  1611 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2026-10-11 16:59:09 +0000  8 bytes for ./PkgInfo
+2026-10-11 16:59:09 +0000 [MT] /usr/bin/ditto exited with 0
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2026-10-11 16:59:09 +0000 [MT] Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionItemRemovalStep
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2026-10-11 16:59:09 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2026-10-11 16:59:09 +0000 [MT] Writing /var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Symbols/58BFAE8B-9630-3216-81B1-9FC13C61CA5D.symbols
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionCopyAppleProvidedContentStep
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2026-10-11 16:59:09 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2026-10-11 16:59:09 +0000 [MT] Archs to thin for item /Users/geruyang/AIProject/MapToDoList/build/distribution/Waypoint-1.0.0-2-retry1.xcarchive/Products/Applications/MapToDo.app are []
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionODRStep
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2026-10-11 16:59:09 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2026-10-11 16:59:09 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fc7d16e2530; bundleID='com.waypoint.maptodo', path='<DVTFilePath:0x7fc7d1a7d0d0:'/Users/geruyang/AIProject/MapToDoList/build/distribution/Waypoint-1.0.0-2-retry1.xcarchive/Products/Applications/MapToDo.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc7cd5913a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc7d1657170; name='Apple Development: Ge Ruyang (PX8ZG2Y7AH)', hash='7B1C5A1BAA33E9EF735548F51F15424020BA8095', serialNumber='9A572CC942EA7CF026AF5969E916EB7', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-09-03 08:27:54 +0000''>', entitlements='{
+    "application-identifier" = "VA8X63NPCS.com.waypoint.maptodo";
+    "com.apple.developer.team-identifier" = VA8X63NPCS;
+    "com.apple.developer.usernotifications.time-sensitive" = 1;
+    "com.apple.developer.weatherkit" = 1;
+    "get-task-allow" = 1;
+}', teamID='VA8X63NPCS', identifier='com.waypoint.maptodo', executablePath='<DVTFilePath:0x7fc7d16c1860:'/Users/geruyang/AIProject/MapToDoList/build/distribution/Waypoint-1.0.0-2-retry1.xcarchive/Products/Applications/MapToDo.app/MapToDo'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "VA8X63NPCS.com.waypoint.maptodo";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = VA8X63NPCS;
+    "com.apple.developer.usernotifications.time-sensitive" = 1;
+    "com.apple.developer.weatherkit" = 1;
+    "get-task-allow" = 0;
+}
+2026-10-11 16:59:09 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-11 16:59:09 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fc7d16e2530; bundleID='com.waypoint.maptodo', path='<DVTFilePath:0x7fc7d1a7d0d0:'/Users/geruyang/AIProject/MapToDoList/build/distribution/Waypoint-1.0.0-2-retry1.xcarchive/Products/Applications/MapToDo.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc7cd5913a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc7d1eecc80; name='Apple Development: Ge Ruyang (PX8ZG2Y7AH)', hash='7B1C5A1BAA33E9EF735548F51F15424020BA8095', serialNumber='9A572CC942EA7CF026AF5969E916EB7', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-09-03 08:27:54 +0000''>', entitlements='{
+    "application-identifier" = "VA8X63NPCS.com.waypoint.maptodo";
+    "com.apple.developer.team-identifier" = VA8X63NPCS;
+    "com.apple.developer.usernotifications.time-sensitive" = 1;
+    "com.apple.developer.weatherkit" = 1;
+    "get-task-allow" = 1;
+}', teamID='VA8X63NPCS', identifier='com.waypoint.maptodo', executablePath='<DVTFilePath:0x7fc7d16c1860:'/Users/geruyang/AIProject/MapToDoList/build/distribution/Waypoint-1.0.0-2-retry1.xcarchive/Products/Applications/MapToDo.app/MapToDo'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "VA8X63NPCS.com.waypoint.maptodo";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = VA8X63NPCS;
+    "com.apple.developer.usernotifications.time-sensitive" = 1;
+    "com.apple.developer.weatherkit" = 1;
+    "get-task-allow" = 0;
+}
+2026-10-11 16:59:09 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fc7d16e2530; bundleID='com.waypoint.maptodo', path='<DVTFilePath:0x7fc7d1a7d0d0:'/Users/geruyang/AIProject/MapToDoList/build/distribution/Waypoint-1.0.0-2-retry1.xcarchive/Products/Applications/MapToDo.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc7cd5913a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc7d1eecc80; name='Apple Development: Ge Ruyang (PX8ZG2Y7AH)', hash='7B1C5A1BAA33E9EF735548F51F15424020BA8095', serialNumber='9A572CC942EA7CF026AF5969E916EB7', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-09-03 08:27:54 +0000''>', entitlements='{
+    "application-identifier" = "VA8X63NPCS.com.waypoint.maptodo";
+    "com.apple.developer.team-identifier" = VA8X63NPCS;
+    "com.apple.developer.usernotifications.time-sensitive" = 1;
+    "com.apple.developer.weatherkit" = 1;
+    "get-task-allow" = 1;
+}', teamID='VA8X63NPCS', identifier='com.waypoint.maptodo', executablePath='<DVTFilePath:0x7fc7d16c1860:'/Users/geruyang/AIProject/MapToDoList/build/distribution/Waypoint-1.0.0-2-retry1.xcarchive/Products/Applications/MapToDo.app/MapToDo'>', hardenedRuntime='0'>'> to: /var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/entitlements~~~khRQIp
+2026-10-11 16:59:09 +0000 [MT] invoking codesign: <NSConcreteTask: 0x7fc7d1ee0860; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    373ACB9C4BEE4B1ECC419A28529882F52B5107EC,
+    "--entitlements",
+    "/var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/entitlements~~~khRQIp",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Root/Payload/MapToDo.app"
+)'>
+2026-10-11 16:59:09 +0000 [MT] codesign output: /var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Root/Payload/MapToDo.app: replacing existing signature
+/var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Root/Payload/MapToDo.app: signed app bundle with Mach-O thin (arm64) [com.waypoint.maptodo]
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2026-10-11 16:59:09 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2026-10-11 16:59:09 +0000 [MT] Running /usr/bin/rsync '-8aPhhE' '/var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Symbols' '--link-dest' '/var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w' '/var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Root'
+2026-10-11 16:59:09 +0000  Symbols/
+Symbols/58BFAE8B-9630-3216-81B1-9FC13C61CA5D.symbols
+2026-10-11 16:59:09 +0000 [MT] /usr/bin/rsync exited with 0
+2026-10-11 16:59:09 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Root' '/var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Packages/MapToDo.ipa'
+2026-10-11 16:59:09 +0000  >>> Copying /var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Root 
+2026-10-11 16:59:09 +0000  copying file ./Payload/MapToDo.app/_CodeSignature/CodeResources ... 
+2026-10-11 16:59:09 +0000  4841 bytes for ./Payload/MapToDo.app/_CodeSignature/CodeResources
+copying file ./Payload/MapToDo.app/zh-Hans.lproj/Localizable.strings ... 
+2026-10-11 16:59:09 +0000  15706 bytes for ./Payload/MapToDo.app/zh-Hans.lproj/Localizable.strings
+copying file ./Payload/MapToDo.app/zh-Hans.lproj/InfoPlist.strings ... 
+309 bytes for ./Payload/MapToDo.app/zh-Hans.lproj/InfoPlist.strings
+copying file ./Payload/MapToDo.app/en.lproj/Localizable.strings ... 
+2026-10-11 16:59:09 +0000  35657 bytes for ./Payload/MapToDo.app/en.lproj/Localizable.strings
+copying file ./Payload/MapToDo.app/en.lproj/InfoPlist.strings ... 
+378 bytes for ./Payload/MapToDo.app/en.lproj/InfoPlist.strings
+copying file ./Payload/MapToDo.app/AppIcon60x60@2x.png ... 
+4589 bytes for ./Payload/MapToDo.app/AppIcon60x60@2x.png
+copying file ./Payload/MapToDo.app/README.md ... 
+3499 bytes for ./Payload/MapToDo.app/README.md
+copying file ./Payload/MapToDo.app/MapToDo ... 
+2026-10-11 16:59:09 +0000  1599616 bytes for ./Payload/MapToDo.app/MapToDo
+2026-10-11 16:59:09 +0000  copying file ./Payload/MapToDo.app/Assets.car ... 
+42248 bytes for ./Payload/MapToDo.app/Assets.car
+copying file ./Payload/MapToDo.app/AppIcon76x76@2x~ipad.png ... 
+2026-10-11 16:59:09 +0000  5799 bytes for ./Payload/MapToDo.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/MapToDo.app/PrivacyInfo.xcprivacy ... 
+4183 bytes for ./Payload/MapToDo.app/PrivacyInfo.xcprivacy
+copying file ./Payload/MapToDo.app/MODEL-SOURCES.md ... 
+3716 bytes for ./Payload/MapToDo.app/MODEL-SOURCES.md
+2026-10-11 16:59:09 +0000  copying file ./Payload/MapToDo.app/embedded.mobileprovision ... 
+16594 bytes for ./Payload/MapToDo.app/embedded.mobileprovision
+copying file ./Payload/MapToDo.app/Info.plist ... 
+1611 bytes for ./Payload/MapToDo.app/Info.plist
+copying file ./Payload/MapToDo.app/PkgInfo ... 
+2026-10-11 16:59:09 +0000  8 bytes for ./Payload/MapToDo.app/PkgInfo
+copying file ./Symbols/58BFAE8B-9630-3216-81B1-9FC13C61CA5D.symbols ... 
+2026-10-11 16:59:09 +0000  3656636 bytes for ./Symbols/58BFAE8B-9630-3216-81B1-9FC13C61CA5D.symbols
+2026-10-11 16:59:09 +0000 [MT] /usr/bin/ditto exited with 0
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2026-10-11 16:59:09 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-10-11 16:59:09 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fc7cd5bee40:'/var/folders/rd/8l68zw9j1vd5b4fpqr49_3_m0000gn/T/XcodeDistPipeline.~~~SziN7w/Root/Payload/MapToDo.app'>
+2026-10-11 16:59:09 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2026-10-11 16:59:09 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so

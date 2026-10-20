@@ -1,0 +1,36 @@
+{
+  "test": "OpenAI minimal HTTP protocol check",
+  "timestamp_utc": "2026-10-11T12:24:19.599470+00:00",
+  "model": "gpt-6.1-sol",
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/models",
+      "http_status": 200,
+      "model_count": 127,
+      "requested_model_listed": true
+    },
+    {
+      "method": "POST",
+      "path": "/responses",
+      "http_status": 429,
+      "error_code": "unrecognized_or_missing",
+      "error_type": "insufficient_quota"
+    }
+  ],
+  "limitations": [
+    "Python HTTP request matches inspected Swift source format; not executing AIService or iOS app",
+    "No real task data, Keychain, app storage, build, simulator or Xcode used"
+  ],
+  "safety": {
+    "synthetic_task_count": 1,
+    "public_location_only": true,
+    "temporary_task_id": true,
+    "max_output_tokens": 512,
+    "store": false,
+    "reasoning_effort": "low",
+    "source_shape_verified": true,
+    "extra_parameter": "max_output_tokens is harness safety cap, not currently present in app helper"
+  },
+  "result": "STOPPED: generation account/model/quota/parameter rejection; no retry"
+}
